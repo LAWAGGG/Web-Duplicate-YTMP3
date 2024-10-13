@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.bungkus{
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+    color:#494949;
+    font-size: 14px;
+    border-bottom: 1px solid #f3f1f1;
+}
+
+.b2{
+    display: flex;
+    gap: 1px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.b2 a{
+    text-decoration: none;
+    color: #0086e7;
+}
+
+.b1{
+   display: flex;
+   gap: 1rem;
+}
+
+.b1 a{
+  
+    color: #111;
+    text-decoration: none;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.image img{
+    width: 200px;
+    height: 100px;
+}
+
+.isian{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#fff, #f4f4f4);
+    border: .5px solid #f3f1f1;
+    border-radius: 5px;
+    padding: 20px 15px;
+    gap: 1rem;
+}
+
+.isian p,label{
+    color: #494949;
+    font-size: 15px;
+}
+
+.kirim{
+    display: flex;
+    flex-grow: 1;
+}
+
+.kirim input{
+    padding: 15px 10px;
+    margin: 0 15px 0 0;
+    border: 1px solid #0086e7;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.kirim button{
+    padding: 15px 20px;
+    background-color: #0086e7;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.isi{
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+}
+
+.isi p ,ol {
+    color: #494949;
+}
+
+.p1, .p2, .p3, .p4, .p5{
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+}
+
+.p1 h1{
+    color: #111;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.p4 ol, .p3 ol{
+    padding-left: 45px;
+    gap: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+
+.footer{
+    padding: 15px 5px;
+    border-top: 1px solid #f3f1f1;
+    gap: 1rem;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #494949;
+}
+
+.dark-mode {
+    background-color: #13192d;
+  }
+  
+  .dark-mode .header{
+    border-bottom-color: white;
+  }
+
+  .dark-mode .b1 a{
+    color: white;
+  }
+
+  .dark-mode .b2{
+    color: black;
+  }
+
+  .dark-mode .body{
+    color: #616a8a;
+  }
+  
+  .dark-mode h1{
+    color: white;
+  }
+  
+  .dark-mode .isian{
+    background: #0e1323;
+    border: #0e1323;
+   
+  }
+
+  .dark-mode .isian p,label{
+    color: white;
+  }
+
+  .dark-mode .isian input{
+    background-color: #1d243d;
+    color: #959ebd;
+    border:#1d243d;
+  }
+  
+  .dark-mode .isi p,ul, li {
+    color: #616a8a;
+  }
+  
+  .dark-mode .footer {
+    border-top-color: #0e1323;
+  }
+
+  .dark-mode .footer a{
+    color: #616a8a;
+  }
